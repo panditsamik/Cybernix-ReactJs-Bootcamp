@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>
+        Build a Login Page
+    </title>
+ 
+    <style>
+ 
+        body {
+            background-color: #e3d5ca;
+            font-family: Verdana;
+            text-align: center;
+        }
+ 
+        
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 40px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+ 
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+ 
+    
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+ 
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+        button {
+            background-color: #05c4;
+            border: 1px solid #777;
+            border-radius: 10px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+  
+<body>
+    <h1>REGISTER</h1>
+  
+    <!-- Create Form -->
+    <form id="form">
+ 
+        <!-- Details -->
+        <div class="form-control">
+            <label for="username" id="label-username">
+                Username
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="username"
+                   placeholder="Username" />
+        </div>
+  
+  <div class="form-control">
+            <label for="name" id="label-firstname">
+                First Name
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="firstname"
+                   placeholder="First Name" />
+        </div>
+        <div class="form-control">
+            <label for="lastname" id="label-lastname">
+                Last Name
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="lastname"
+                   id="lastname"
+                   placeholder="Last Name" />
+        </div>
+        </div>
+        <div class="form-control">
+            <label for="email" id="label-email">
+                E-mail
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="email"
+                   id="email"
+                   placeholder="E-mail" />
+        </div>
+        </div>
+        <div class="form-control">
+            <label for="address" id="label-address">
+                Address
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="address"
+                   id="address"
+                   placeholder="Address" />
+        </div>
+  
+        <div class="form-control">
+            <label for="password" id="label-password">
+                Password
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="password"
+                   placeholder="Password" />
+        </div>
+        <br>
+Date of Birth: 
+<input type="date" id="dob">
+<br> 
+
+  
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+  
+</html>
